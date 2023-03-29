@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+#mainpage {
+    background-color: darkgrey;
+}
+
+.navbar {
+    background-color: grey!important
+}
+
+#mainpage-text {
+    margin: auto;
+    margin-top: 25%;
+    width: 25%;
+    text-align: center;
+}

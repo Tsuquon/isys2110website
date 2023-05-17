@@ -27,7 +27,7 @@ h1 {
 .three h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    background: url('dogsplaying.jpeg');
+    background: url('dogphotos/dogs_3.jpg');
     margin-left: 100;
     display: inline-flex;
     font-size: 10rem;
@@ -301,4 +301,8 @@ a {
 
 .no-available {
     background-color: red;
+}
+
+#carousel-body {
+    margin: 5% 5% 5% 5%;
 }

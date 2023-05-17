@@ -52,11 +52,11 @@
           <td>
             09:00
           </td>
-          <td class="mid-available">
-            <a href="main.html">3 Bookings Available</a>
+          <td class="available">
+            5 Bookings Available
           </td>
-          <td class="mid-available">
-            2 Bookings Available
+          <td class="available">
+            5 Bookings Available
           </td>
           <td class="mid-available">
             2 Bookings Available
@@ -79,17 +79,81 @@
           <td>
             10:00
           </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
         </tr>
         
         <tr>
           <td>
             11:00
           </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+
         </tr>
 
         <tr>
           <td>
             12:00
+          </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
           </td>
         </tr>
 
@@ -97,11 +161,54 @@
           <td>
             13:00
           </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
         </tr>
 
         <tr>
           <td>
             14:00
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
           </td>
         </tr>
 
@@ -109,12 +216,56 @@
           <td>
             15:00
           </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+
+          <td class="available">
+            5 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
         </tr>
 
         <tr>
           <td>
             16:00
           </td>
+          <td class="mid-available">
+            2 Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="no-available">
+            No Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-1" data-href="main.html">
+            3 Bookings Available
+          </td>
+          <td class="mid-available" id="mid-available-2" data-href="main.html">
+            2 Bookings Available
+          </td>
+          <td class="mid-available">
+            4 Bookings Available
+          </td>
+          <td class="available">
+            5 Bookings Available
+          </td>
+
         </tr>
       </table>
     </div>
@@ -123,5 +274,22 @@
     $(function(){
       $("#navigation-header").load("header.html");
     });
+
+
+</script>
+<script type="text/javascript">
+  const midboxes = document.getElementsByClassName(`mid-available`);
+  for (var i = 0; i < midboxes.length; i++) {
+    midboxes[i].addEventListener("click", () => {
+      window.location.href = `/requestbooking.html`;
+    });
+  }
+
+  const boxes = document.getElementsByClassName(`available`);
+  for (var i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener("click", () => {
+      window.location.href = `/requestbooking.html`;
+    });
+  }
 </script>
 </html>

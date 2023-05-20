@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+</head>
+<body class="mainpage">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid" style="background-color:none">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto order-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="main.html">DogXercise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bookingcalendar.html">Booking Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto order-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="user.html">Welcome Bob!</a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+
+
+    <div style="padding: 50px 500px 0 50px; ">
+        <h1>Current Bookings</h1>
+        <hr>
+        <div class="booking-box">
+            <div>
+                <p><b>Booking Date:</b> 23/05/23 (recurring)</p>
+                <p><b>Booking Time:</b> 10:00am</p>
+                <p><b>Dog Name:</b> Spleefy</p>
+                <p><b>Trainer:</b> Barkley Pritchett</p>
+            </div>
+            <div>
+                <p><b>Training:</b></p>
+                <p>Ball catching</p>
+                <p>Potty training</p>
+            </div>
+            <div id="right-div">
+                <div>
+                    <button type="button">Change Trainer</button>
+                </div>
+                <div>
+                    <button type="button">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-box">
+            <div>
+                <p><b>Booking Date:</b> 25/05/23</p>
+                <p><b>Booking Time:</b> 10:00am</p>
+                <p><b>Dog Name:</b> Spleefy</p>
+                <p><b>Trainer:</b> Abigail Johnson</p>
+            </div>
+            <div>
+                <p><b>Training:</b></p>
+                <p>Potty Training</p>
+                <p>Running</p>
+                <p>Spa Relaxation</p>
+            </div>
+            <div id="right-div">
+                <div>
+                    <button type="button">Change Trainer</button>
+                </div>
+                <div>
+                    <button type="button">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="display:flex; flex-direction:row">
+            <div style="width:500px">
+                <h1>Past Bookings</h1>
+            </div>
+            <div style="text-align:right; width:550px; padding-top:15px">
+                <button>Delete All</button>
+            </div>
+        </div>
+        <hr>
+        <div class="booking-box">
+            <div>
+                <p><b>Booking Date:</b> 16/05/23 (recurring)</p>
+                <p><b>Booking Time:</b> 10:00am</p>
+                <p><b>Dog Name:</b> Spleefy</p>
+                <p><b>Trainer:</b> Abigail Johnson</p>
+            </div>
+            <div>
+                <p><b>Training:</b></p>
+                <p>Potty Training</p>
+                <p>Spa Relaxation</p>
+            </div>
+            <div id="right-div">
+                <div>
+                    <button type="button">Delete</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="booking-box">
+            <div>
+                <p><b>Booking Date:</b> 12/05/23</p>
+                <p><b>Booking Time:</b> 10:00am</p>
+                <p><b>Dog Name:</b> Spleefy</p>
+                <p><b>Trainer:</b> Abigail Johnson</p>
+            </div>
+            <div>
+                <p><b>Training:</b></p>
+                <p>Frisbee Catching</p>
+                <p>Swimming</p>
+                <p>Walking</p>
+            </div>
+            <div id="right-div">
+                <div>
+                    <button type="button">Delete</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="booking-box">
+            <div>
+                <p><b>Booking Date:</b> 9/05/23 (recurring)</p>
+                <p><b>Booking Time:</b> 10:00am</p>
+                <p><b>Dog Name:</b> Spleefy</p>
+                <p><b>Trainer:</b> Abigail Johnson</p>
+            </div>
+            <div>
+                <p><b>Training:</b></p>
+                <p>Potty Training</p>
+                <p>Spa Relaxation</p>
+            </div>
+            <div id="right-div">
+                <div>
+                    <button type="button">Delete</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>

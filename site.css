@@ -8,7 +8,7 @@ h1 {
 }
 
 .navbar {
-    background-color: grey !important
+    /* background-color: grey !important */
 }
 
 #mainpage-text {
@@ -226,10 +226,10 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Overwrite default styles of hr */
-hr {
+/* hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
-}
+} */
 
 /* Set a style for the submit/register button */
 .registerbtn {
@@ -305,4 +305,31 @@ a {
 
 #carousel-body {
     margin: 5% 5% 5% 5%;
+}
+
+.booking-box {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+.booking-box > div {
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-div {
+    width: 300px !important;
+}
+
+.booking-box > div > div {
+    margin: 10px;
+    text-align: right;
 }

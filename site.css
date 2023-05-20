@@ -3,8 +3,8 @@ h1 {
     color: darkgray;
 }
 
-#mainpage {
-    background-color: whitesmoke;
+.mainpage {
+    background-color:#FDFDF0;
 }
 
 .navbar {
@@ -27,11 +27,11 @@ h1 {
 .three h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    background: url('dogphotos/dogs_3.jpg');
-    margin-left: 100;
+    background: url('dogphotos/dogs_1.jpg');
+    margin-left: 50px;
     display: inline-flex;
     font-size: 10rem;
-    background-position: 0 0;
+    background-size: 1000px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #5b728a54;
     animation: animatedOne 30s linear infinite;
@@ -41,23 +41,23 @@ h1 {
 
 @keyframes animatedOne {
     from {
-        background-position: 0 0;
+        background-position: 0px -140px;
     }
 
     to {
-        background-position: 100% 0;
+        background-position: 100%;
     }
 }
 
 .button {
     /* position:relative; */
-    margin-left: 12rem;
-    border-radius: 5px;
-    border-color: darkblue;
-    background-color: lightblue;
+    margin-left: 280px;
+    border-radius: 30px;
+    border-color: darkgrey;
+    border-width: 3px;
+    background: none;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: none;
     margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;

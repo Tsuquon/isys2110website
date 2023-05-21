@@ -5,6 +5,7 @@ h1 {
 
 .mainpage {
     background-color:#FDFDF0;
+    margin-bottom: 50px;
 }
 
 .navbar {
@@ -279,6 +280,10 @@ a {
 #booking-cal-div, #about-div {
     margin-left: 10%;
     padding: 20px;
+}
+
+#faq > p {
+    margin-bottom: 50px;
 }
 
 .available {

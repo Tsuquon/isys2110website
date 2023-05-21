@@ -277,9 +277,13 @@ a {
     width: 12.5%;
 }
 
-#booking-cal-div, #about-div {
+#booking-cal-div{
     margin-left: 10%;
     padding: 20px;
+}
+
+#about-div {
+    margin: 50px;
 }
 
 #faq > p {
@@ -347,4 +351,28 @@ a {
 
 .training-div > div {
     width: 400px;
+}
+
+#trainer-act > li {
+    margin-bottom: 5px;
+}
+
+.trainer {
+    margin-bottom: 50px;
+}
+
+#dev-team > p {
+    margin-bottom: 10px;
+}
+
+#activities {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#activities > div {
+    width: 400px;
+    margin-bottom: 5px;
 }
